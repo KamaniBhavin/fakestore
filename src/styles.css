@@ -1,0 +1,90 @@
+.column {
+    display: flex;
+    flex-direction: row;
+}
+
+/******* Categories **********/
+
+.categories {
+    width: 128px;
+    height: 32px;
+    color: #ffa32e;
+    padding: 4px;
+    margin: 4px;
+}
+
+/******* Product **********/
+.products {
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    column-gap: 32px;
+    row-gap: 32px;
+}
+
+.product {
+    height: 320px;
+    border: 1px solid black;
+    margin: 8px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    color: #333333;
+}
+
+.product-img {
+    width: 128px;
+    height: 128px;
+    padding: 16px;
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/******* Navbar **********/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    margin: -8px -8px 16px -8px;
+
+}
+
+.navbar-logo {
+    width: 64px;
+    height: 64px;
+}
+
+.navbar-elements {
+    display: flex;
+    padding: 4px;
+    margin: 4px;
+}
+
+.navbar-elements > div {
+    padding: 8px;
+    margin: 8px;
+}
+
+.navbar-login-btn {
+    border-radius: 4px;
+    background-color: #ffa32e;
+}
+
+/******* Footer **********/
+.footer {
+    margin: 8px -8px -8px -8px;
+    width: available;
+    height: 80px;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
